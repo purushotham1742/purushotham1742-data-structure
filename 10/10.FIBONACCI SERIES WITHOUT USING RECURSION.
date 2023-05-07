@@ -1,0 +1,26 @@
+#include 
+
+int main() {
+    int a, b, c, largest;
+
+    // Accept three numbers from the user
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    // Compare the first two numbers and store the larger one in 'largest'
+    if (a > b) {
+        largest = a;
+    } else {
+        largest = b;
+    }
+
+    // Compare 'largest' with the third number
+    if (c > largest) {
+        largest = c;
+    }
+
+    // Print the largest number
+    printf("The largest number is: %d\n", largest);
+
+    return 0;
+    }
