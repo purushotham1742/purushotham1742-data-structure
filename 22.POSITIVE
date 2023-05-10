@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    printf("\n enter two numbers:");
+    scanf("%d%d",&i,&j);
+    if(i<0||j<0)
+    {
+        printf("both are negative");
+    }
+       else 
+        {
+            printf("both are positive");
+        }
+        return 0;
+    }
