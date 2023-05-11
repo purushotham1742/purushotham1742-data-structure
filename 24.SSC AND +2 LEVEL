@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+  float scc_percentage, plus2_percentage;
+
+  printf("Enter the percentage in SCC level: ");
+  scanf("%f", &scc_percentage);
+
+  printf("Enter the percentage in +2 level: ");
+  scanf("%f", &plus2_percentage);
+
+  if (scc_percentage >= 60 && plus2_percentage >= 60) {
+    printf("Congratulations! You have first division in both SCC and +2 levels.\n");
+  }
+
+  return 0;
+}
